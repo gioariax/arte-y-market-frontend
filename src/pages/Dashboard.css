@@ -1,0 +1,81 @@
+.dashboard-header {
+    margin-bottom: 2rem;
+}
+
+.metric-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+.metric-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.success-icon {
+    background: var(--success-bg);
+    color: var(--success);
+}
+
+.danger-icon {
+    background: var(--danger-bg);
+    color: var(--danger);
+}
+
+.primary-icon {
+    background: rgba(99, 102, 241, 0.1);
+    color: var(--primary);
+}
+
+.warning-icon {
+    background: var(--warning-bg);
+    color: var(--warning);
+}
+
+.metric-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.metric-label {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.metric-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.chart-card {
+    padding: 1.5rem;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-wrapper {
+    flex: 1;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.empty-chart {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    font-style: italic;
+    border: 1px dashed var(--border-color);
+    border-radius: var(--radius-md);
+    margin-top: 1rem;
+}
