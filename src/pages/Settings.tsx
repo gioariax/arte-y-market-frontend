@@ -33,7 +33,7 @@ const Settings = () => {
         <div>
             <div className="flex justify-between items-center mb-4">
                 <div>
-                    <h1>Configuration</h1>
+                    <h1>Configuracion</h1>
                     <p>Parametriza las categorías para tus ingresos y egresos.</p>
                 </div>
                 <button className="btn btn-primary" onClick={() => setIsModalOpen(true)}>
